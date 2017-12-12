@@ -11,8 +11,8 @@ from const import API_URL
 app = Flask(__name__)
 
 
-VALIDATION_TOKEN = os.environ.get('VALIDATION_TOKEN', 'test')
-PAGE_ACCESS_TOKEN = os.environ.get('PAGE_ACCESS_TOKEN', 'test')
+VALIDATION_TOKEN = 'olly'
+PAGE_ACCESS_TOKEN = 'EAAEoEpeYl8gBACZBz1TXA3F7eXkYZBvTt6OlLKZBGujHZCXVgNNjDCKEqg7d00Hq7mBQH4ncQq8mcnKMuYOatb4ZBmrIXiAAcatOn37lBKbCQBIjOtoHSSynlnwTwAwTPqtUsgKIDsdsGUp1ok6gJZC85fWoPmXPwutapaxY2ALwZDZD'
 
 
 class CatGifBot(Bot):
